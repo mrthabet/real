@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-29T21:01:20 EET" name="Default suite" finished-at="2024-04-29T21:01:30 EET" duration-ms="9900">
+    <groups>
+    </groups>
+    <test started-at="2024-04-29T21:01:20 EET" name="Default test" finished-at="2024-04-29T21:01:30 EET" duration-ms="9900">
+      <class name="seleniumtestcases.addlead">
+        <test-method is-config="true" signature="setup()[pri:0, instance:seleniumtestcases.addlead@217ed35e]" started-at="2024-04-29T21:01:20 EET" name="setup" finished-at="2024-04-29T21:01:23 EET" duration-ms="3629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigateToAddLead()[pri:0, instance:seleniumtestcases.addlead@217ed35e]" started-at="2024-04-29T21:01:24 EET" name="navigateToAddLead" finished-at="2024-04-29T21:01:30 EET" duration-ms="6202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToAddLead -->
+      </class> <!-- seleniumtestcases.addlead -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
