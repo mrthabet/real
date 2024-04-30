@@ -1,21 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-29T21:01:20 EET" name="Default suite" finished-at="2024-04-29T21:01:30 EET" duration-ms="9900">
+  <suite started-at="2024-04-30T23:00:36 EET" name="Default suite" finished-at="2024-04-30T23:01:26 EET" duration-ms="50428">
     <groups>
     </groups>
-    <test started-at="2024-04-29T21:01:20 EET" name="Default test" finished-at="2024-04-29T21:01:30 EET" duration-ms="9900">
-      <class name="seleniumtestcases.addlead">
-        <test-method is-config="true" signature="setup()[pri:0, instance:seleniumtestcases.addlead@217ed35e]" started-at="2024-04-29T21:01:20 EET" name="setup" finished-at="2024-04-29T21:01:23 EET" duration-ms="3629" status="PASS">
+    <test started-at="2024-04-30T23:00:36 EET" name="Default test" finished-at="2024-04-30T23:01:26 EET" duration-ms="50428">
+      <class name="seleniumtestcases.dashboard">
+        <test-method is-config="true" signature="setup()[pri:0, instance:seleniumtestcases.dashboard@14bdbc74]" started-at="2024-04-30T23:00:40 EET" name="setup" finished-at="2024-04-30T23:00:42 EET" duration-ms="1387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="navigateToAddLead()[pri:0, instance:seleniumtestcases.addlead@217ed35e]" started-at="2024-04-29T21:01:24 EET" name="navigateToAddLead" finished-at="2024-04-29T21:01:30 EET" duration-ms="6202" status="PASS">
+        <test-method signature="testDashboardAccess()[pri:0, instance:seleniumtestcases.dashboard@14bdbc74]" started-at="2024-04-30T23:00:46 EET" name="testDashboardAccess" finished-at="2024-04-30T23:00:53 EET" duration-ms="6129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDashboardAccess -->
+      </class> <!-- seleniumtestcases.dashboard -->
+      <class name="seleniumtestcases.login_vaiddata">
+        <test-method is-config="true" signature="setup()[pri:0, instance:seleniumtestcases.login_vaiddata@508dec2b]" started-at="2024-04-30T23:00:45 EET" name="setup" finished-at="2024-04-30T23:00:46 EET" duration-ms="1504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testOrangeHRM()[pri:0, instance:seleniumtestcases.login_vaiddata@508dec2b]" started-at="2024-04-30T23:00:53 EET" name="testOrangeHRM" finished-at="2024-04-30T23:01:04 EET" duration-ms="11760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOrangeHRM -->
+      </class> <!-- seleniumtestcases.login_vaiddata -->
+      <class name="seleniumtestcases.login_invaiddaata">
+        <test-method is-config="true" signature="setup()[pri:0, instance:seleniumtestcases.login_invaiddaata@1e4f4a5c]" started-at="2024-04-30T23:00:43 EET" name="setup" finished-at="2024-04-30T23:00:45 EET" duration-ms="1567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testOrangeHRM()[pri:0, instance:seleniumtestcases.login_invaiddaata@1e4f4a5c]" started-at="2024-04-30T23:01:04 EET" name="testOrangeHRM" finished-at="2024-04-30T23:01:09 EET" duration-ms="5013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOrangeHRM -->
+      </class> <!-- seleniumtestcases.login_invaiddaata -->
+      <class name="seleniumtestcases.addlead">
+        <test-method is-config="true" signature="setup()[pri:0, instance:seleniumtestcases.addlead@37313c65]" started-at="2024-04-30T23:00:36 EET" name="setup" finished-at="2024-04-30T23:00:40 EET" duration-ms="4643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigateToAddLead()[pri:0, instance:seleniumtestcases.addlead@37313c65]" started-at="2024-04-30T23:01:09 EET" name="navigateToAddLead" finished-at="2024-04-30T23:01:17 EET" duration-ms="7462" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToAddLead -->
       </class> <!-- seleniumtestcases.addlead -->
+      <class name="seleniumtestcases.lead_action">
+        <test-method is-config="true" signature="setup()[pri:0, instance:seleniumtestcases.lead_action@465232e9]" started-at="2024-04-30T23:00:42 EET" name="setup" finished-at="2024-04-30T23:00:43 EET" duration-ms="1417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigateToAddLead()[pri:0, instance:seleniumtestcases.lead_action@465232e9]" started-at="2024-04-30T23:01:17 EET" name="navigateToAddLead" finished-at="2024-04-30T23:01:26 EET" duration-ms="9204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToAddLead -->
+      </class> <!-- seleniumtestcases.lead_action -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
