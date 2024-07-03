@@ -29,7 +29,7 @@ public class login {
 	}
 
 	public void login(String username, String password) {
-		driver.get("https://company1.realstatecrm-main.dev.alefsoftware.com/en/login");
+		driver.get("https://company1.souqleader.com/en/dashboard");
 
 	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10)); // Adjust timeout as needed
 		wait.until(ExpectedConditions.visibilityOf(usernameInput));
