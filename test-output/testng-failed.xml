@@ -3,6 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+      <class name="seleniumtestcases.addlead">
+        <methods>
+          <include name="navigateToAddLead"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- seleniumtestcases.addlead -->
       <class name="seleniumtestcases.lead_action">
         <methods>
           <include name="setup"/>
